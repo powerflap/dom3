@@ -19,18 +19,17 @@ public class Main {
 
         int clientDeviceYear = 2013;
 
-        if (clientOS == 0) {
-            System.out.println("Установите версию приложения для iOS по ссылке" );
-            if (clientDeviceYear < 2015) {
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке" );
-            }
-
+        int clientOs1 = 0;
+        int clientDeviceyear = 2015;
+        if (clientOs1 != 1 && clientDeviceyear >= 2015) {
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        } else if (clientOs1 != 1 && clientDeviceyear < 2015) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
         }
-        else  {
-            System.out.println("Установите версию приложения для Android по ссылке" );
-            if (clientDeviceYear < 2015) {
-                System.out.println("Установите облегченную версию приложения для Android по ссылке" );
-            }
+        if (clientOs1 == 1 && clientDeviceyear >= 2015) {
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        } else if (clientOs1 == 1 && clientDeviceyear < 2015) {
+            System.out.println("Установите версию приложения для Android по ссылке");
         }
 
 
