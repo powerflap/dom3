@@ -4,18 +4,17 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        System.out.println("Задача 1 " );
+        System.out.println("Задача 1 ");
 
-        int clientOS = 1 ;
+        int clientOS = 1;
         if (clientOS == 0) {
-            System.out.println("Установите версию приложения для iOS по ссылке" );
+            System.out.println("Установите версию приложения для iOS по ссылке");
 
-        }
-        else  {
-            System.out.println("Установите версию приложения для Android по ссылке" );
+        } else {
+            System.out.println("Установите версию приложения для Android по ссылке");
         }
 
-        System.out.println("Задача 2 " );
+        System.out.println("Задача 2 ");
 
         int clientDeviceYear = 2013;
 
@@ -33,7 +32,7 @@ public class Main {
         }
 
 
-        System.out.println("Задача 3 " );
+        System.out.println("Задача 3 ");
 
         int year = 1994;
 
@@ -48,29 +47,29 @@ public class Main {
         }
 
 
-        System.out.println("Задача 4 " );
+        System.out.println("Задача 4 ");
 
-        int deliveryDistance = 100 ;
+        int deliveryDistance = 100;
 
-        if (deliveryDistance<= 20) {
+        if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней: 1 ");
-            if (deliveryDistance>=20 && deliveryDistance<60){
+            if (deliveryDistance >= 20 && deliveryDistance < 60) {
                 System.out.println("Потребуется дней: 3 ");
             }
         }
-        if (deliveryDistance>= 60 && deliveryDistance< 100) {
+        if (deliveryDistance >= 60 && deliveryDistance < 100) {
             System.out.println("Потребуется дней: 4 ");
         }
 
-        if (deliveryDistance>= 100){
-                System.out.println("свыше 100 км доставки нет");
-            }
+        if (deliveryDistance >= 100) {
+            System.out.println("свыше 100 км доставки нет");
+        }
 
-        System.out.println("Задача 5 " );
+        System.out.println("Задача 5 ");
 
-        int monthNumber = 12 ;
+        int monthNumber = 12;
 
-        switch(monthNumber) {
+        switch (monthNumber) {
             case 12:
             case 1:
             case 2:
@@ -99,19 +98,7 @@ public class Main {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+}
 
 
 
