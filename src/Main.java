@@ -36,16 +36,13 @@ public class Main {
 
         int year = 1994;
 
-        if (year > 1584) {
-            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-                System.out.printf("%d год является високосным%n", year);
-            } else {
-                System.out.printf("%d год не является високосным%n", year);
-            }
-        } else {
+        if (year <= 1584) {
             System.out.println("Год должен быть больше, чем 1584.");
+        } else if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+            System.out.printf("%d год является високосным%n", year);
+        } else {
+            System.out.printf("%d год не является високосным%n", year);
         }
-
 
         System.out.println("Задача 4 ");
 
