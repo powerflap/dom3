@@ -49,15 +49,14 @@ public class Main {
 
         System.out.println("Задача 4 ");
 
-        int deliveryDistance = 100;
+        int deliveryDistance = 70;
 
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней: 1 ");
             if (deliveryDistance >= 20 && deliveryDistance < 60) {
                 System.out.println("Потребуется дней: 3 ");
             }
-        }
-        if (deliveryDistance >= 60 && deliveryDistance < 100) {
+        } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
             System.out.println("Потребуется дней: 4 ");
         } else {
             System.out.println("свыше 100 км доставки нет");
